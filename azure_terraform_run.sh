@@ -1,0 +1,1 @@
+docker run --name "terraform-azure-cli" -it --rm -v ${PWD}:/work -w /work --entrypoint /bin/sh wojtax/azure-cli:2.30
